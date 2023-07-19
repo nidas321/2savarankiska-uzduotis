@@ -1,0 +1,107 @@
+.main-wrapper {
+  color: rgb(46, 46, 157);
+  display: grid;
+  grid-template-columns: 4fr 6fr;
+  margin-top: 3rem;
+}
+.main-wrapper .button-wrapper {
+  display: flex;
+  gap: 0.2rem;
+  align-items: center;
+}
+.main-wrapper .button-wrapper button {
+  all: unset;
+  border: 1px solid rgb(46, 46, 157);
+  width: 2.5rem;
+  height: 2.5rem;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+.main-wrapper h4 {
+  margin-top: 0;
+}
+.main-wrapper .contentOne {
+  padding-left: 7rem;
+}
+.main-wrapper .contentOne p {
+  margin-bottom: 0;
+  margin-top: 0; /* Reduce the margin bottom value */
+}
+.main-wrapper .moneyWrapper {
+  display: flex;
+  align-items: baseline;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.main-wrapper h2 {
+  font-size: 2rem;
+}
+.main-wrapper h1 {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+.main-wrapper img {
+  width: 45rem;
+  height: 35rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.last-button .paragraph-wrapper {
+  margin-top: 1rem;
+}
+.last-button button {
+  all: unset;
+  width: 15.5rem;
+  height: 3rem;
+  background-color: rgb(70, 70, 202);
+  color: white;
+  margin-top: 1rem;
+  text-align: center;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+  align-items: center;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+  border-top: 1px solid rgba(128, 128, 128, 0.8);
+}
+.header-wrapper a {
+  all: unset;
+  cursor: pointer;
+}
+.header-wrapper .link-wrapper button {
+  all: unset;
+  height: 2.5rem;
+  width: 5rem;
+  border: 1px solid black;
+  padding-left: 0.8rem;
+  font-weight: 600;
+}
+.header-wrapper .link-wrapper a {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.image-wrapper {
+  display: flex;
+  align-items: center;
+  width: 1rem;
+  height: 1rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  align-self: center;
+}
+
+img {
+  width: 7rem;
+  height: 2rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  align-self: center;
+  margin-left: 1rem;
+}/*# sourceMappingURL=index.css.map */
